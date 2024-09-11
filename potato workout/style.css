@@ -1,0 +1,48 @@
+body {
+    padding: 20px;
+      font-family: "EB Garamond", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+.collage {
+    width: 50%;
+    display:flex;
+}
+#opener {
+    width: 100%;
+}
+.question1 {
+    margin: 0 px;
+    padding: 0 px;
+}
+.question2 {
+    width: 48%;
+    margin: 20px;
+}
+.yesvideo {
+    width:50%;
+}
+.yes {
+    display: flex;
+    margin: 0px;
+}
+.button {
+    font-size: 40px;
+}
+.TaterToned {
+    font-size: 80px;
+   animation-name:color;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+      }
+      
+      @keyframes color {
+        0% {
+          background-color: #fefae2;
+        }
+      
+        100% {
+          background-color: #FFD700;
+        }
+    }
