@@ -27,7 +27,7 @@ var popup = L.popup()
 // Custom icon for the marker
 var greenIcon = L.icon({
     iconUrl: 'https://png.pngtree.com/png-vector/20220912/ourmid/pngtree-vector-push-pin-paper-png-image_6172879.png',
-    iconSize: [60, 60],       // Size of the icon
+    iconSize: [48, 48],       // Size of the icon
     iconAnchor: [18, 37],     // Anchor point at the bottom center of the icon
     popupAnchor: [22, -35]     // Popup appears above the icon
 });
